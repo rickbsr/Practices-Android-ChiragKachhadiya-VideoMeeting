@@ -1,8 +1,10 @@
-package com.rick.videomeeting;
+package com.rick.videomeeting.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.rick.videomeeting.R;
 
 public class MainActivity extends AppCompatActivity {
 

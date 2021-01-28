@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "351850190599",
+    "project_id": "androidapps-practices",
+    "storage_bucket": "androidapps-practices.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351850190599:android:101190ea6108dd1a6097a2",
+        "android_client_info": {
+          "package_name": "com.rick.videomeeting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351850190599-ctee3qmnofrtl487a65pumsgqj0qcldb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rick.videomeeting",
+            "certificate_hash": "ec34e5225755a13039c162007e9f799bd98d4485"
+          }
+        },
+        {
+          "client_id": "351850190599-4f4a743m2t8jmjb04b6ljnvnilrfn14c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0hpBFy4upmrl4hnNpLb7emQyr_kM7YMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351850190599-4f4a743m2t8jmjb04b6ljnvnilrfn14c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
