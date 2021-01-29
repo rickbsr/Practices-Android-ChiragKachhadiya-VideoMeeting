@@ -16,8 +16,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/SignInActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/SignInActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/utilities/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/utilities/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,39 +212,51 @@
       <option name="project" value="LOCAL" />
       <updated>1611890488483</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Android Video Meeting App Development | Episode #4 | Sign In Using Firestore &amp; Shared Preferences&#10;https://www.youtube.com/watch?v=aVwLY4ngoVY&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=4">
+      <created>1611905763368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611905763368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Android Video Meeting App Development | Episode #2 | Setup Firebase Cloud Messaging &amp; Firestore&#10;https://www.youtube.com/watch?v=P54aEc4QYzI&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=2" />
     <MESSAGE value="Android Video Meeting App Development | Episode #3 | Sign Up Using Firestore&#10;https://www.youtube.com/watch?v=JO9McV-_2uE&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Android Video Meeting App Development | Episode #3 | Sign Up Using Firestore&#10;https://www.youtube.com/watch?v=JO9McV-_2uE&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=3" />
+    <MESSAGE value="Android Video Meeting App Development | Episode #4 | Sign In Using Firestore &amp; Shared Preferences&#10;https://www.youtube.com/watch?v=aVwLY4ngoVY&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Android Video Meeting App Development | Episode #4 | Sign In Using Firestore &amp; Shared Preferences&#10;https://www.youtube.com/watch?v=aVwLY4ngoVY&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1611816846938">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611816846938" />
-    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2" timestamp="1611890488296">
+    <state x="810" y="344" width="357" height="416" key="AndroidCreateXmlResourceDialog" timestamp="1611910213045">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611890488296" />
-    <state width="1807" height="281" key="GridCell.Tab.0.bottom" timestamp="1611824164161">
+    <state x="810" y="344" width="357" height="416" key="AndroidCreateXmlResourceDialog/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611910213045" />
+    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2" timestamp="1611905763290">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="281" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611824164161" />
-    <state width="1807" height="281" key="GridCell.Tab.0.center" timestamp="1611824164161">
+    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611905763290" />
+    <state width="1807" height="593" key="GridCell.Tab.0.bottom" timestamp="1611912022108">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="281" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611824164161" />
-    <state width="1807" height="281" key="GridCell.Tab.0.left" timestamp="1611824164161">
+    <state width="1807" height="593" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611912022108" />
+    <state width="1807" height="593" key="GridCell.Tab.0.center" timestamp="1611912022108">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="281" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611824164161" />
-    <state width="1807" height="281" key="GridCell.Tab.0.right" timestamp="1611824164161">
+    <state width="1807" height="593" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611912022108" />
+    <state width="1807" height="593" key="GridCell.Tab.0.left" timestamp="1611912022108">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="281" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611824164161" />
+    <state width="1807" height="593" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611912022108" />
+    <state width="1807" height="593" key="GridCell.Tab.0.right" timestamp="1611912022108">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="593" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611912022108" />
     <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1611890496843">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

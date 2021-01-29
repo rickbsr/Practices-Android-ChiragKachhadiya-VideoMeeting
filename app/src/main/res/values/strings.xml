@@ -24,4 +24,5 @@
     <string name="activity_sign_up_hint_confirm_password">• • • • • •</string>
     <string name="activity_sign_up_text_already_have_an_account">Already have an account?</string>
     <string name="activity_sign_up_text_sign_in">Sign In</string>
+    <string name="activity_main_text_sign_out">Sign Out</string>
 </resources>
