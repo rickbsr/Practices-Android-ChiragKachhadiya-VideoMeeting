@@ -11,24 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e804879-8c21-4800-8ee8-d7dfa6a8d7f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/adapters/UsersAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_user_id_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_audio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_video.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_container_user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/SignInActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/SignInActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/activities/SignUpActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/utilities/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rick/videomeeting/utilities/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[HT69B0206921]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_API_29]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -74,6 +73,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -87,6 +88,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-03T06:04:08.517Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -219,28 +222,40 @@
       <option name="project" value="LOCAL" />
       <updated>1611905763368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Android Video Meeting App Development | Episode #5 | Working With FCM Token &amp; Sign Out&#10;https://www.youtube.com/watch?v=JDsgAReslD4&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=5">
+      <created>1611912567793</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611912567793</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Android Video Meeting App Development | Episode #2 | Setup Firebase Cloud Messaging &amp; Firestore&#10;https://www.youtube.com/watch?v=P54aEc4QYzI&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=2" />
     <MESSAGE value="Android Video Meeting App Development | Episode #3 | Sign Up Using Firestore&#10;https://www.youtube.com/watch?v=JO9McV-_2uE&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=3" />
     <MESSAGE value="Android Video Meeting App Development | Episode #4 | Sign In Using Firestore &amp; Shared Preferences&#10;https://www.youtube.com/watch?v=aVwLY4ngoVY&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Android Video Meeting App Development | Episode #4 | Sign In Using Firestore &amp; Shared Preferences&#10;https://www.youtube.com/watch?v=aVwLY4ngoVY&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=4" />
+    <MESSAGE value="Android Video Meeting App Development | Episode #5 | Working With FCM Token &amp; Sign Out&#10;https://www.youtube.com/watch?v=JDsgAReslD4&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Android Video Meeting App Development | Episode #5 | Working With FCM Token &amp; Sign Out&#10;https://www.youtube.com/watch?v=JDsgAReslD4&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1611816846938">
+    <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1612319860178">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611816846938" />
+    <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1612319860178" />
+    <state x="576" y="310" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1612316703154">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="576" y="310" width="824" height="484" key="AndroidCreateResourceFileDialog/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1612316703154" />
     <state x="810" y="344" width="357" height="416" key="AndroidCreateXmlResourceDialog" timestamp="1611910213045">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="810" y="344" width="357" height="416" key="AndroidCreateXmlResourceDialog/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611910213045" />
-    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2" timestamp="1611905763290">
+    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2" timestamp="1611912567727">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611905763290" />
+    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611912567727" />
     <state width="1807" height="593" key="GridCell.Tab.0.bottom" timestamp="1611912022108">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -257,9 +272,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="593" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611912022108" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1611890496843">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1611912575384">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611890496843" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1611912575384" />
+    <state x="656" y="257" key="search.everywhere.popup" timestamp="1612319739414">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" key="search.everywhere.popup/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1612319739414" />
   </component>
 </project>
