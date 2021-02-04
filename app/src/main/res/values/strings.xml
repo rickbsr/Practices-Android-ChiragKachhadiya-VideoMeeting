@@ -25,4 +25,6 @@
     <string name="activity_sign_up_text_already_have_an_account">Already have an account?</string>
     <string name="activity_sign_up_text_sign_in">Sign In</string>
     <string name="activity_main_text_sign_out">Sign Out</string>
+    <string name="activity_incoming_invitation_text_incoming_meeting_invitation">Incoming Meeting Invitation</string>
+    <string name="activity_outgoing_invitation_text_sending_meeting_invitation">Sending Meeting Invitation</string>
 </resources>
