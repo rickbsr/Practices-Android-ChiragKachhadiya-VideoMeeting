@@ -18,8 +18,12 @@ import com.rick.videomeeting.network.ApiClient;
 import com.rick.videomeeting.network.ApiService;
 import com.rick.videomeeting.utilities.Constants;
 
+import org.jitsi.meet.sdk.JitsiMeetActivity;
+import org.jitsi.meet.sdk.JitsiMeetConferenceOptions;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import java.net.URL;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -96,14 +100,29 @@ public class IncomingInvitationActivity extends AppCompatActivity {
                     public void onResponse(@NonNull Call<String> call, @NonNull Response<String> response) {
                         if (response.isSuccessful()) {
                             if (type.equals(Constants.REMOTE_MSG_INVITATION_ACCEPTED)) {
-                                Toast.makeText(IncomingInvitationActivity.this, "Invitation Accepted", Toast.LENGTH_SHORT).show();
+                                try {
+                                    URL serverURL = new URL("https://meet.jit.si");
+                                    JitsiMeetConferenceOptions conferenceOptions =
+                                            new JitsiMeetConferenceOptions.Builder()
+                                                    .setServerURL(serverURL)
+                                                    .setWelcomePageEnabled(false)
+                                                    .setRoom(getIntent().getStringExtra(Constants.REMOTE_MSG_MEETING_ROOM))
+                                                    .build();
+
+                                    JitsiMeetActivity.launch(IncomingInvitationActivity.this, conferenceOptions);
+                                    finish();
+                                } catch (Exception exception) {
+                                    Toast.makeText(IncomingInvitationActivity.this, exception.getMessage(), Toast.LENGTH_SHORT).show();
+                                    finish();
+                                }
                             } else {
                                 Toast.makeText(IncomingInvitationActivity.this, "Invitation Rejected", Toast.LENGTH_SHORT).show();
+                                finish();
                             }
                         } else {
                             Toast.makeText(IncomingInvitationActivity.this, response.message(), Toast.LENGTH_SHORT).show();
+                            finish();
                         }
-                        finish();
                     }
 
                     @Override
