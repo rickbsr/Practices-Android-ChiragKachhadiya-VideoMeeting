@@ -150,11 +150,14 @@ public class MainActivity extends AppCompatActivity implements UsersListener {
     @Override
     public void initiateAudioMeeting(User user) {
         final boolean isValidToken = user.token != null && !user.token.trim().isEmpty();
-        final String username = user.firstName + " " + user.lastName;
-        Toast.makeText(
-                MainActivity.this,
-                isValidToken ? "Audio meeting with " + username : username + " is not available for meeting",
-                Toast.LENGTH_SHORT
-        ).show();
+
+        if (!isValidToken) {
+            Toast.makeText(this, user.firstName + " " + user.lastName + " is not available for meeting", Toast.LENGTH_SHORT).show();
+        } else {
+            Intent intent = new Intent(getApplicationContext(), OutgoingInvitationActivity.class);
+            intent.putExtra("user", user);
+            intent.putExtra("type", "audio");
+            startActivity(intent);
+        }
     }
 }
