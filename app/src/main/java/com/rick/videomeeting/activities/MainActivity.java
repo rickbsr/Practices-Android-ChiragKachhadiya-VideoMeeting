@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements UsersListener {
         if (!isValidToken) {
             Toast.makeText(this, user.firstName + " " + user.lastName + " is not available for meeting", Toast.LENGTH_SHORT).show();
         } else {
-            Intent intent = new Intent(this, OutgoingInvitationActivity.class);
+            Intent intent = new Intent(getApplicationContext(), OutgoingInvitationActivity.class);
             intent.putExtra("user", user);
             intent.putExtra("type", "video");
             startActivity(intent);

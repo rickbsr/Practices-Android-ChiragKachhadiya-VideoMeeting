@@ -15,10 +15,12 @@
         android:theme="@style/Theme.VideoMeeting"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".activities.OutgoingInvitationActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activities.IncomingInvitationActivity"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.OutgoingInvitationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.IncomingInvitationActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.SignInActivity"
             android:screenOrientation="portrait"
@@ -41,7 +43,8 @@
             android:name=".firebase.MessagingService"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <!--<action android:name="com.google.firebase.INSTANCE_ID_EVENT" />-->
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
     </application>
