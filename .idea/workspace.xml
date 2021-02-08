@@ -12,7 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e804879-8c21-4800-8ee8-d7dfa6a8d7f5" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+>>>>>>> 87573fb... Update README.md & Add Previews.
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612763641844</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Android Video Meeting App Development | Episode #14 | Disable Battery Optimizations&#10;https://www.youtube.com/watch?v=Y7hCZqLYgGE&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=14">
+      <created>1612766002412</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612766002412</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -312,7 +324,8 @@
     <MESSAGE value="Android Video Meeting App Development | Episode #11 | The Video Meeting Using Jitsi Meet&#10;https://www.youtube.com/watch?v=iVK9BrbLPz0&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=11" />
     <MESSAGE value="Android Video Meeting App Development | Episode #12 | The Audio Meeting Using Jitsi Meet&#10;https://www.youtube.com/watch?v=ax1-qbhI-Tg&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=12" />
     <MESSAGE value="Android Video Meeting App Development | Episode #13 | Video Meeting (Conference) With Multiple Users&#10;https://www.youtube.com/watch?v=YF7cEz33HWc&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Android Video Meeting App Development | Episode #13 | Video Meeting (Conference) With Multiple Users&#10;https://www.youtube.com/watch?v=YF7cEz33HWc&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=13" />
+    <MESSAGE value="Android Video Meeting App Development | Episode #14 | Disable Battery Optimizations&#10;https://www.youtube.com/watch?v=Y7hCZqLYgGE&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Android Video Meeting App Development | Episode #14 | Disable Battery Optimizations&#10;https://www.youtube.com/watch?v=Y7hCZqLYgGE&amp;list=PLam6bY5NszYNR54PiY_NN7hGS858xinq-&amp;index=14" />
   </component>
   <component name="WindowStateProjectService">
     <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1612517426930">
@@ -331,10 +344,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="810" y="344" width="357" height="416" key="AndroidCreateXmlResourceDialog/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1612427525564" />
-    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2" timestamp="1612763641546">
+    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2" timestamp="1612766001820">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1612763641546" />
+    <state x="418" y="102" width="1140" height="901" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1440.900@67.27.1853.1053" timestamp="1612766001820" />
     <state width="1807" height="206" key="GridCell.Tab.0.bottom" timestamp="1612763604920">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
