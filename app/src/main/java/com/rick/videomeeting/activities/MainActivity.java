@@ -3,6 +3,7 @@ package com.rick.videomeeting.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,6 +16,7 @@ import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.gson.Gson;
 import com.rick.videomeeting.R;
 import com.rick.videomeeting.adapters.UsersAdapter;
 import com.rick.videomeeting.listeners.UsersListener;
@@ -33,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements UsersListener {
     private UsersAdapter usersAdapter;
     private TextView textErrorMessage;
     private SwipeRefreshLayout swipeRefreshLayout;
+    private ImageView imageConference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements UsersListener {
         setContentView(R.layout.activity_main);
 
         preferenceManager = new PreferenceManager(getApplicationContext());
+
+        imageConference = findViewById(R.id.imageConference);
 
         TextView textTitle = findViewById(R.id.textTitle);
         textTitle.setText(String.format("%s %s",
@@ -158,6 +163,24 @@ public class MainActivity extends AppCompatActivity implements UsersListener {
             intent.putExtra("user", user);
             intent.putExtra("type", "audio");
             startActivity(intent);
+        }
+    }
+
+    @Override
+    public void onMultipleUsersAction(Boolean isMultipleUsersSelected) {
+        if (isMultipleUsersSelected) {
+            imageConference.setVisibility(View.VISIBLE);
+            imageConference.setOnClickListener(v -> {
+                Intent intent = new Intent(getApplicationContext(), OutgoingInvitationActivity.class);
+                intent.putExtra("selectedUsers", new Gson().toJson(usersAdapter.getSelectedUsers()));
+                intent.putExtra("type", "video");
+                intent.putExtra("isMultiple", true);
+                startActivity(intent);
+
+                System.out.println(usersAdapter.getSelectedUsers().toString());
+            });
+        } else {
+            imageConference.setVisibility(View.GONE);
         }
     }
 }

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/userContainer"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
     android:padding="@dimen/_5sdp">
 
     <TextView
         android:id="@+id/textFirstChar"
         android:layout_width="@dimen/_35sdp"
         android:layout_height="@dimen/_35sdp"
-        android:background="@drawable/background_user_id_icon"
+        android:background="@drawable/background_user_icon"
         android:fontFamily="@font/ubuntu_bold"
         android:gravity="center"
         android:includeFontPadding="false"
@@ -19,6 +21,21 @@
         app:layout_constraintBottom_toTopOf="@id/viewDivider"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageSelected"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_user_icon"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/_3sdp"
+        android:src="@drawable/ic_accept"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/textFirstChar"
+        app:layout_constraintEnd_toEndOf="@id/textFirstChar"
+        app:layout_constraintStart_toStartOf="@id/textFirstChar"
+        app:layout_constraintTop_toTopOf="@id/textFirstChar"
+        app:tint="@color/colorTextIcons" />
 
     <View
         android:id="@+id/viewSupporter"
