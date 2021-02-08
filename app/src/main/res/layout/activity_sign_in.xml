@@ -95,7 +95,6 @@
                     android:importantForAutofill="no"
                     android:includeFontPadding="false"
                     android:inputType="textEmailAddress"
-                    android:text="xyz.user@gmail.com"
                     android:textColor="@color/colorPrimaryText"
                     android:textColorHint="@color/colorHintText"
                     android:textSize="@dimen/_13ssp" />
@@ -108,7 +107,6 @@
                     android:layout_marginEnd="@dimen/_8sdp"
                     android:fontFamily="@font/ubuntu_regular"
                     android:includeFontPadding="false"
-                    android:text="@string/activity_sign_in_text_password"
                     android:textColor="@color/colorPrimaryText"
                     android:textSize="@dimen/_11ssp" />
 
