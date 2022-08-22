@@ -32,8 +32,10 @@ Practices Series：Android
 
 #### 預覽圖 ####
 
-
 |         動態預覽圖         |         登入         |       單人通話       |      多人通話       |
 |:--------------------------:|:--------------------:|:--------------------:|:-------------------:|
 | ![](pics/videomeeting.gif) | ![](pics/signup.png) | ![](pics/callin.png) | ![](pics/multi.png) |
 
+---
+
+###### tags: `Android` `Java`
