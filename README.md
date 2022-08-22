@@ -1,5 +1,5 @@
 # ChiragKachhadiya VideoMeeting
-Practices Series：Android
+Practices Series：Android App
 
 ---
 
